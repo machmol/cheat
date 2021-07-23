@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="ressources/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body class="overlay">
+        <!--Header with Navigation-->
+        <Header>
+            <h1 class="heading-main">Cheat Sheet</h1>
+            <nav class="nav-main">
+                <ul>
+                    <li><a href="index.html" class="selected">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                </ul>
+            </nav>
+        </Header>
+        <!--Main Part-->
+        <main>
+            <!-- Navigation left-->
+            <section class="nav-content">
+                <nav>
+                    <ul>
+                        <li><a href="#headings">Headings</a></li>
+                        <li><a href="#tables">Tables</a></li>
+                        <li><a href="#images">Images</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <!-- here comes the content-->
+            <section class="content">
+                <!-- start of the headings Section-->
+                <section id="headings">
+                    <h1>Headings</h1>
+                    <h2>Tags</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Tag</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&lt;h1&gt;</td>
+                                <td>heading 1</td>
+                                <td>This is the main heading</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;h2&gt;</td>
+                                <td>heading 2</td>
+                                <td>This is the first subheading</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;h3&gt;</td>
+                                <td>heading 3</td>
+                                <td>This is the third heading</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;h4&gt;</td>
+                                <td>heading 4</td>
+                                <td>This is the fourth heading</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;h5&gt;</td>
+                                <td>heading 5</td>
+                                <td>This heading is quite small</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;h6&gt;</td>
+                                <td>heading 6</td>
+                                <td>This is the smallest heading</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <hr />
+                <!--Start of the Tables section-->
+                <section id="tables">
+                    <h1>Tables</h1>
+                    <h2>Tags</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Tag</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&lt;table&gt;</td>
+                                <td>Table</td>
+                                <td>This tag wraps around the table content</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;thead&gt;</td>
+                                <td>Table Head</td>
+                                <td>This tag wraps around the first table row and defines the tables head</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;tbody&gt;</td>
+                                <td>Table Body</td>
+                                <td>This Tag wraps around the tables Main Content</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;tfooter&gt;</td>
+                                <td>table footer</td>
+                                <td>This tag wraps around the last row of the table and defines its footer</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;th&gt;</td>
+                                <td>table heading</td>
+                                <td>This tag defines the first ("heading") cell of a column or row</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;td&gt;</td>
+                                <td>table data</td>
+                                <td>this tag defines a cell within the table</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <hr />
+                <!-- Start of the Images section-->
+                <section id="images">
+                    <h1>Images</h1>
+                    <h2>Tags</h2>
+                    <table class=".tags">
+                        <thead>
+                            <tr>
+                                <th scope="col">Tag</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&lt;img&gt;</td>
+                                <td>Image</td>
+                                <td>This Tag includes an Image to your page</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2>Attributes</h2>
+                    <table class=".atributes">
+                        <thead>
+                            <tr>
+                                <th scope="col">Attribute</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>src</td>
+                                <td>Source</td>
+                                <td>Contains the URL to the image</td>
+                            </tr>
+                            <tr>
+                                <td>alt</td>
+                                <td>alternative</td>
+                                <td>Contains an alternative text for if the image cannot be rendered.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+
+                </section>
+                <hr />
+                <!-- Start of the Video Section-->
+                <section id="videos">
+                    <h1>Videos</h1>
+                    <h2>Tags</h2>
+                    <table class=".tags">
+                        <thead>
+                            <tr>
+                                <th scope="col">Tag</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&lt;video&gt;</td>
+                                <td>Video</td>
+                                <td>This Tag includes a Video to your page</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2>Attributes</h2>
+                    <table class=".atributes">
+                        <thead>
+                            <tr>
+                                <th scope="col">Attribute</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>src</td>
+                                <td>Source</td>
+                                <td>Contains the URL to the Video</td>
+                            </tr>
+                            <tr>
+                                <td>controls</td>
+                                <td>Controls</td>
+                                <td>Ads the browser implemented control elements to the video</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </section>
+            </section>
+            
+        </main>
+    
+</body>
+</html>
