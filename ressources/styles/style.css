@@ -1,7 +1,7 @@
 /*Types*/
 
 body {
-    background:linear-gradient(0deg, rgba(66, 82, 143,0.3), rgba(66, 82, 143,0.8)), url(https://github.com/machmol/cheat/tree/main/ressources/images/background.PNG);
+    background:linear-gradient(0deg, rgba(66, 82, 143,0.3), rgba(66, 82, 143,0.8)), url(https://machmol.github.io/cheat/ressources/images/background.PNG);
     background-size: cover;
     font-family: "Roboto mono", monospace;
 }
